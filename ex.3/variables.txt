@@ -1,0 +1,14 @@
+alert("Is the file attached?");
+
+var myName = 'Pavel'; // Js variable names cannot start with a number!!!
+
+var a;
+var b;
+var c;
+
+var a, b, c; //same as the above
+
+var a = 1;
+var b = "Pavel";
+var c = true;       //it is not needed to specify data types in Js 
+
