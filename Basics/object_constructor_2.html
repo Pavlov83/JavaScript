@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+
+     function fruit(name,color,shape){
+       this.name = name;
+       this.color = color;
+       this.shape = shape;
+
+       this.describe = function(){
+       return 'A ' + this.name + 'is the color' +
+       this.color + 'and is the shape' + this.shape;
+     }
+    }
+
+var apple = new Fruit('apple', 'red', 'round');
+var melon = new Fruit('melon','green','round');
+
+
+    </script>
+  </body>
+</html>
