@@ -53,4 +53,7 @@ val = tags.split(' , ');
 //replace()
 val = str.replace('Pavel', 'Jack');
 
+//includes()
+val = str.includes('Hello');
+
 console.log(val);
