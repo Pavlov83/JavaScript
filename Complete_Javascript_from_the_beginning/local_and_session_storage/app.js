@@ -28,7 +28,7 @@ function(e){
 
         tasks = [];
 
-    }else{
+    }else{ 
 
         tasks = JSON.parse(localStorage.getItem('tasks'));
     }
