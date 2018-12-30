@@ -23,6 +23,23 @@ Book.prototype.getSummary = function(){
 
 }
 
+Book.prototype.getAge = function(){
+    const years = new Date().getFullYear() - this.year;
+    return `${this.title} is ${years} years old`
+};
+
+Book.prototype.revise = function(newYear){
+    this.year = newYear;
+    this.revised = true;
+};
+
 const book2 = new Book('The waitress','Mr Pnikman','2010');
+const book3 = new Book('The Bad','Will Hunting', '2005');
 console.log(book2.getSummary());
+console.log(book3.getAge());
+book2.revise('2018');
+console.log(book2);
+
+
+
 
