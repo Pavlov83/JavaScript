@@ -1,0 +1,16 @@
+Creating and managing object literals:
+
+An object is used to represent specific entity through an aggregation of data and functionalities.
+
+The data is called properties and represented by pairs of names and values.
+
+The functionalities are usually called methods and are represented by functions.
+
+The simplest way to create an object in JS is the literal representation:
+
+var emptyObject ={};
+
+var person = {"name":"John","surname":"Smith"};
+person.greet = function(){
+    return`Hello There`
+}

@@ -1,0 +1,1 @@
+//inheritance is used to avoid code redundancy

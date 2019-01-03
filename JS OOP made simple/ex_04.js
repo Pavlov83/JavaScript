@@ -1,0 +1,1 @@
+//Polymorphism is used for different objects to have reduced complexity
