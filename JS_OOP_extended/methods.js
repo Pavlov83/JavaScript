@@ -13,8 +13,6 @@ var person = {
     }
 };
 
-function showFullName(){
-    return "John Smith";
-}
+
 
 
